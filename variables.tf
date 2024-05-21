@@ -13,6 +13,8 @@ variable "tfc_network_workspace_name" {
   default     = "learn-terraform-run-triggers-network"
 }
 
+
+
 variable "instances_per_subnet" {
   description = "Number of EC2 instances in each private subnet"
   type        = number
