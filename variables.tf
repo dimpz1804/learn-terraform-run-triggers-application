@@ -7,6 +7,7 @@ variable "tfc_org_name" {
   default     = "hashicorp-learn"
 }
 
+
 variable "tfc_network_workspace_name" {
   description = "Name of the network workspace"
   type        = string
